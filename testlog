@@ -1,0 +1,4 @@
+**********************************
+https://app1.com/admin/login.php
+**********************************
+[('https://app1.com/admin/login.php', <form action="/admin/index.php?page=login" method="POST">\n       Username : <input name="adminname" type="text"/><br/>\n       Password : <input name="password" type="password"/><br/>\n<input type="submit" value="submit"/>\n</form>)]
