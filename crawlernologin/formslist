@@ -1,24 +1,34 @@
-<form id="yw0" action="/index-test.php/site/login" method="post"><!--<h2>Welcome to X2Engine.</h2>-->
-<div class="form" id="login-form">
-	<div class="row">
-		<div class="cell">
-			<img id="login-logo" width="80" height="71" src="/images/x2engine_crm_login.png" alt="X2Engine">		</div>
-		<div class="cell" style="margin:0;width:225px;">
-		
-			<label for="LoginForm_username">Username</label>			<input autofocus="autofocus" name="LoginForm[username]" id="LoginForm_username" type="text">			
-			<label style="margin-top:5px;" for="LoginForm_password">Password</label>			<input name="LoginForm[password]" id="LoginForm_password" type="password">									<div class="row checkbox" style="margin-top:5px;">
-				<div class="cell">
-					<input class="x2-button" type="submit" name="yt0" value="Login">				</div>
+<form class="indexForm" action="index.php?index_page" method="post" id="login_form" onsubmit="try { var myValidator = validate_login_form; } catch(e) { return true; } return myValidator(this);">
+     <input name="_qf__login_form" type="hidden" value="">
 
-				<div class="cell" style="margin-left:10px;padding-top:12px;padding-left:5px;">
-					<input id="ytLoginForm_rememberMe" type="hidden" value="0" name="LoginForm[rememberMe]"><input value="1" uncheckedvalue="0" name="LoginForm[rememberMe]" id="LoginForm_rememberMe" type="checkbox">					<label style="font-size:10px;" for="LoginForm_rememberMe">Remember me</label>					<br>
-					
-				</div>		
-			</div>
-		</div>
-	</div>
-	<div class="row" id="login-links" style="margin-top:10px;text-align:center;">
-		<a class="x2touch-link" href="https://app9.com/index-test.php/site/googleLogin"><img src="/images/google_icon.png" id="google-icon"> Login with Google</a>		<a class="x2touch-link" href="/index.php/x2touch"><img src="/images/mobile.png" id="mobile-icon"> X2Touch Mobile</a>	</div>
-</div>
-<!--<div id="login-logo"></div>-->
-</form>
+  <div class="formRow">
+      <div class="formLabel">
+                <div class="header">Login</div>
+                         </div>
+      <div class="formElement">
+             <div class="field"><input class="inputText" id="login_box" name="login" type="text"></div>
+                   </div>
+
+     </div>
+  <div class="formRow">
+      <div class="formLabel">
+                <div class="header">Password</div>
+                         </div>
+      <div class="formElement">
+             <div class="field"><input class="inputText" tabindex="0" name="password" type="password"></div>
+                   </div>
+     </div>
+  <div class="formRow">
+         <div class="formLabel">
+                <div class="header"> </div>
+                <div class="explanation"></div>
+         </div>
+      <div class="formElement">
+             <div class="field"><input class="flatButton" name="submit_login" value="Login" type="submit"></div>
+             <div class="small note"><a href="/www/index.php?ctg=signup">Create an account</a></div>             <div class="small note"><a href="/www/index.php?ctg=reset_pwd">I forgot my password</a></div>             <div class="small note"><a href="/www/index.php?ctg=contact">Contact us</a></div>
+             <div class="small note"><a href="/www/index.php?ctg=lessons">Lessons list</a></div>         </div>
+
+   
+
+     </div>
+     </form>
