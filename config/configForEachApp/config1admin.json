@@ -1,7 +1,7 @@
 {
 	"login_url": "https://app1.com/admin/index.php?page=login",
-	"start_url": "https://app1.com/admin/login.php",
-	"login": "False",
+    "start_url": "https://app1.com/admin/index.php?page=login",
+	"login": "True",
 	"domain": "https://app1.com",
 	"username": "admin",
 	"password": "admin"

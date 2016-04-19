@@ -6,5 +6,21 @@
       "file": "../../../../../../../../../../../../../../etc/passwd"
     }, 
     "method": "get"
+  }, 
+  {
+    "url": "https://app9.com/index-test.php/admin/translationManager", 
+    "action": "https://app9.com/index-test.php/admin/translationManager", 
+    "parameter": {
+      "file": "../../../../../../../../../../../../../lfi.php"
+    }, 
+    "method": "get"
+  }, 
+  {
+    "url": "https://app9.com/index-test.php/admin/translationManager", 
+    "action": "https://app9.com/index-test.php/admin/translationManager", 
+    "parameter": {
+      "file": "../../../../../../../../../../../../../../lfi.php"
+    }, 
+    "method": "get"
   }
 ]
