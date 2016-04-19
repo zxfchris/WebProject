@@ -44,9 +44,11 @@ class Form(object):
                                 print(type)
                                 splitString= type.split("_*_")
                                 value = splitString[1]
+                                if method == "get" and payload != '':
+                                    value = payload
                             elif type in self.type_dictionary.keys():
                                 value = self.type_dictionary[type]
-                                if type == "text" and payload != '':
+                                if method == "get" and payload != '':
                                     value = payload
                             else:
                                 value =''

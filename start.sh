@@ -14,12 +14,12 @@ if [ -f $config_file ]
 then
 	# phase 1
 	cd ./phase1
-	sh phase1.sh "../$config_file"
+#	sh phase1.sh "../$config_file"
 
 	 # phase 2 & 3
 	cd ../phase2_3
 #	python phase2.py
-#	python phase3.py
+	python phase3.py
 #
 #	 # phase 4
 #	 cd ../phase4

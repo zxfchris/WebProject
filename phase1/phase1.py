@@ -108,4 +108,3 @@ for linkform in linkforms:
 with open("../output/phase1_output.json",'w') as outfile:
 	json.dump(jsonform,outfile,indent=4)
 
-

@@ -62,7 +62,7 @@ class Example1Spider(CrawlSpider):
                     formsfile.write("<form action='" + action + "' method='get'> ")
                     for param in params:
                         name, value = param.split('=')
-                        formsfile.write("<input type='text' name='"+name+"' value='"+value+"'/>")
+                        formsfile.write("<input type='hidden' name='"+name+"' value='"+value+"'/>")
                     formsfile.write("</form>")
                     formsfile.write('\n')
                     linksfile = open('linkslist', 'a')

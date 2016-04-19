@@ -1,4 +1,184 @@
+----------------------------------
+https://app3.com
+----------------------------------
+None
+src ur1: js/script.js
+None
+src ur1: js/exploit.js
+None
+src ur1: js/hotpatch.js
+None
+src ur1: js/netron.js
+href src url: http://sourceforge.net/projects/rips-scanner/files/
+crawler parseJavascript: https://app3.com/js/netron.js
+crawler parseJavascript: https://app3.com/js/exploit.js
+crawler parseJavascript: https://app3.com/js/hotpatch.js
+crawler parseJavascript: https://app3.com/js/script.js
+line:  	client.open("GET", "windows/function.php?file="+file+"&start="+start+"&end="+end);
+https://app3.com
+GET, windows/function.php?file=file&start=start&end=end
+['GET', ' windows/function.php?file=file&start=start&end=end']
+GET
+ windows/function.php?file=file&start=start&end=end
+['file=file', 'start=start', 'end=end']
+line:  	client.open("GET", "windows/code.php?file="+file+"&lines="+lines);
+https://app3.com
+GET, windows/code.php?file=file&lines=lines
+['GET', ' windows/code.php?file=file&lines=lines']
+GET
+ windows/code.php?file=file&lines=lines
+['file=file', 'lines=lines']
 **********************************
-https://app1.com/admin/login.php
+https://app3.com
 **********************************
-[('https://app1.com/admin/login.php', <form action="/admin/index.php?page=login" method="POST">\n       Username : <input name="adminname" type="text"/><br/>\n       Password : <input name="password" type="password"/><br/>\n<input type="submit" value="submit"/>\n</form>)]
+in parse function
+js/script.js
+src ur1: js/script.js
+js_url: https://app3.com/js/script.js
+js/exploit.js
+src ur1: js/exploit.js
+js_url: https://app3.com/js/exploit.js
+js/hotpatch.js
+src ur1: js/hotpatch.js
+js_url: https://app3.com/js/hotpatch.js
+js/netron.js
+src ur1: js/netron.js
+js_url: https://app3.com/js/netron.js
+THIS IS A LINK: http://sourceforge.net/projects/rips-scanner/files/
+originUrl:
+originUrl:
+originUrl:
+originUrl:
+line:  	client.open("GET", "windows/function.php?file="+file+"&start="+start+"&end="+end);
+https://app3.com
+GET, windows/function.php?file=file&start=start&end=end
+['GET', ' windows/function.php?file=file&start=start&end=end']
+GET
+ windows/function.php?file=file&start=start&end=end
+['file=file', 'start=start', 'end=end']
+line:  	client.open("GET", "windows/code.php?file="+file+"&lines="+lines);
+https://app3.com
+GET, windows/code.php?file=file&lines=lines
+['GET', ' windows/code.php?file=file&lines=lines']
+GET
+ windows/code.php?file=file&lines=lines
+['file=file', 'lines=lines']
+[('https://app3.com', <form action="https://app3.com/windows/code.php" method="get"> <input name="file" type="hidden" value="file"/><input name="lines" type="hidden" value="lines"/></form>), ('https://app3.com', <form action="https://app3.com/windows/function.php" method="get"> <input name="file" type="hidden" value="file"/><input name="start" type="hidden" value="start"/><input name="end" type="hidden" value="end"/></form>)]
+'reading output from phase1'
+'start processing phase3'
+<Response [200]>
+'login successful'
+[{u'url': u'https://app3.com', u'action': u'https://app3.com/windows/code.php', u'parameter': {u'lines': u'hidden_*_lines', u'file': u'hidden_*_file'}, u'method': u'get'}, {u'url': u'https://app3.com', u'action': u'https://app3.com/windows/function.php', u'parameter': {u'start': u'hidden_*_start', u'end': u'hidden_*_end', u'file': u'hidden_*_file'}, u'method': u'get'}]
+hidden_*_lines
+hidden_*_file
+parameters!!!
+{u'lines': u'lines', u'file': u'file'}
+PHP, show phpinfo
+hidden_*_lines
+hidden_*_file
+parameters!!!
+{u'lines': u'lines', u'file': u'file'}
+RFI, show phpinfo
+hidden_*_lines
+hidden_*_file
+parameters!!!
+{u'lines': u'lines', u'file': u'file'}
+PHP, show special string
+hidden_*_lines
+hidden_*_file
+parameters!!!
+{u'lines': u'lines', u'file': u'file'}
+PHP, show phpinfo
+hidden_*_lines
+hidden_*_file
+parameters!!!
+{u'lines': u'lines', u'file': u'file'}
+hidden_*_lines
+hidden_*_file
+parameters!!!
+{u'lines': u'lines', u'file': u'file'}
+hidden_*_lines
+hidden_*_file
+parameters!!!
+{u'lines': u'lines', u'file': u'file'}
+hidden_*_lines
+hidden_*_file
+parameters!!!
+{u'lines': u'lines', u'file': u'file'}
+RFI, show phpinfo
+hidden_*_lines
+hidden_*_file
+parameters!!!
+{u'lines': u'lines', u'file': u'file'}
+hidden_*_lines
+hidden_*_file
+parameters!!!
+{u'lines': u'lines', u'file': u'file'}
+RFI, show phpinfo
+hidden_*_lines
+hidden_*_file
+parameters!!!
+{u'lines': u'lines', u'file': u'file'}
+PHP, show special string
+hidden_*_start
+hidden_*_end
+hidden_*_file
+parameters!!!
+{u'start': u'start', u'end': u'end', u'file': u'file'}
+PHP, show phpinfo
+hidden_*_start
+hidden_*_end
+hidden_*_file
+parameters!!!
+{u'start': u'start', u'end': u'end', u'file': u'file'}
+RFI, show phpinfo
+hidden_*_start
+hidden_*_end
+hidden_*_file
+parameters!!!
+{u'start': u'start', u'end': u'end', u'file': u'file'}
+PHP, show special string
+hidden_*_start
+hidden_*_end
+hidden_*_file
+parameters!!!
+{u'start': u'start', u'end': u'end', u'file': u'file'}
+PHP, show phpinfo
+hidden_*_start
+hidden_*_end
+hidden_*_file
+parameters!!!
+{u'start': u'start', u'end': u'end', u'file': u'file'}
+hidden_*_start
+hidden_*_end
+hidden_*_file
+parameters!!!
+{u'start': u'start', u'end': u'end', u'file': u'file'}
+hidden_*_start
+hidden_*_end
+hidden_*_file
+parameters!!!
+{u'start': u'start', u'end': u'end', u'file': u'file'}
+hidden_*_start
+hidden_*_end
+hidden_*_file
+parameters!!!
+{u'start': u'start', u'end': u'end', u'file': u'file'}
+RFI, show phpinfo
+hidden_*_start
+hidden_*_end
+hidden_*_file
+parameters!!!
+{u'start': u'start', u'end': u'end', u'file': u'file'}
+hidden_*_start
+hidden_*_end
+hidden_*_file
+parameters!!!
+{u'start': u'start', u'end': u'end', u'file': u'file'}
+RFI, show phpinfo
+hidden_*_start
+hidden_*_end
+hidden_*_file
+parameters!!!
+{u'start': u'start', u'end': u'end', u'file': u'file'}
+PHP, show special string
