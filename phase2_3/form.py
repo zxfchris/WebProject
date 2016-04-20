@@ -26,7 +26,7 @@ class Form(object):
                                 "hidden": "Secret.",
                                 "submit": "",
                                 "name":"abcasdfa",
-                                "file":"asdfaf"}
+                                "file":"../../../../../../../../../../../../../../etc/passwd"}
 
     def fill_entries(self,filter_type=None, payload='', paramkey=''):
         method = self.formdata["method"].lower()

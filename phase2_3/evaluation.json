@@ -9,5 +9,6 @@
 	"PHP1": ";phpinfo()",
     "PHP2": "phpinfo()",
     "PHP3": ";echo \"afadsfaefasdfafezdfa\"",
-    "PHP4": "echo \"afadsfaefasdfafezdfa\""
+    "PHP4": "echo \"afadsfaefasdfafezdfa\"",
+    "PHP5" : ";cat /etc/passwd"
 }

@@ -16,14 +16,14 @@ then
 	cd ./phase1
 	sh phase1.sh "../$config_file"
 
-	 # phase 2 & 3
+	# phase 2 & 3
 	cd ../phase2_3
 	python phase2.py
 	python phase3.py
-#
-#	 # phase 4
-#	 cd ../phase4
-#	 python generate_exploit.py -c "../$config_file" -i ../output/phase3_output.json -o ../exploit_scripts
+
+	 # phase 4
+	 cd ../phase4
+	 python generate_exploit.py -c "../$config_file" -i ../output/phase3_output.json -o ../exploit_scripts
 else
 	echo "Please provide a valid config file in JSON format"
 fi

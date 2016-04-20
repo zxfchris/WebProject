@@ -102,8 +102,15 @@ with open('../output/phase1_output.json') as data_file:
                                                 print 'PHP, show special string'
                                                 if "afadsfaefasdfafezdfa" in r.content \
                                                         and "echo \"afadsfaefasdfafezdfa\"" not in r.content:
+                                                        #                                                      \
+                                                        # and "echo%20%22afadsfaefasdfafezdfa%22" not in r.content:
                                                     print "injection success5!"
                                                     print 'PHP, show special string'
+                                                    injectSuccess = True
+                                            elif item == 'PHP5' or item == 'PHP6':
+                                                print 'PHP, injection command'
+                                                if "root:x:0:0:root:/root:/bin/bash" in r.content:
+                                                    print "injection success6!"
                                                     injectSuccess = True
                                             #formDetails["url"] = url
                                             if injectSuccess == True:
@@ -126,21 +133,67 @@ with open('../output/phase1_output.json') as data_file:
                 #     valid_parameters = dict(ssciForm.fill_entries())
                 #
                 #     try:
-                #         r = client.post(action,valid_parameters)
-                #         if r != None:#sometimes the request can not be processed
-                #             pprint(r.content)
-                #             if r.status_code == 200:#  reponse 200 means the CSRF is successful
-                #                 formDetails["parameter"] = valid_parameters
-                #                 if len(valid_parameters) != 0:
-                #                     csrfTemp = False
-                #                     for temp in valid_parameters:
-                #                         if temp.lower().find("csrf") > -1 or temp.lower().find("token")>-1:
-                #                             csrfTemp = True
-                #                     if csrfTemp == False :
-                #                         jsonform.append(formDetails)
+                #         newParam = ''
+                #         r = client.post(action, params=urlencode(valid_parameters))
+                #
+                #         if r != None:
+                #             if r.status_code == 200:
+                #                 # print r.content
+                #                 # print r.url
+                #                 injectSuccess = False
+                #                 if item == 'LFI1':
+                #                     if "root:x:0:0:root:/root:/bin/bash" in r.content:
+                #                         print "injection success1!"
+                #                         injectSuccess = True
+                #                 elif item == 'LFI2' or item == 'LFI3' or item == 'LFI4':
+                #                     if "PHP Version" in r.content \
+                #                             and 'HTTP Headers Information' in r.content:
+                #                         print "injection success2!"
+                #                         print 'LFI, show phpinfo'
+                #                         injectSuccess = True
+                #                         # print r.content
+                #                 elif item == 'RFI1' or item == 'RFI2' or item == 'RFI3':
+                #                     print 'RFI, show phpinfo'
+                #                     if "PHP Version" in r.content\
+                #                             and 'HTTP Headers Information' in r.content:
+                #                         print "injection success3!"
+                #                         print 'RFI, show phpinfo'
+                #                         injectSuccess = True
+                #                 elif item == 'PHP1' or item == 'PHP2':
+                #                     print 'PHP, show phpinfo'
+                #                     if "PHP Version" in r.content\
+                #                             and 'HTTP Headers Information' in r.content:
+                #                         print "injection success4!"
+                #                         print 'PHP, show phpinfo'
+                #                         injectSuccess = True
+                #                 elif item == 'PHP3' or item == 'PHP4':
+                #                     print 'PHP, show special string'
+                #                     if "afadsfaefasdfafezdfa" in r.content \
+                #                             and "echo \"afadsfaefasdfafezdfa\"" not in r.content:
+                #                             #                                                      \
+                #                             # and "echo%20%22afadsfaefasdfafezdfa%22" not in r.content:
+                #                         print "injection success5!"
+                #                         print 'PHP, show special string'
+                #                         injectSuccess = True
+                #                 elif item == 'PHP5' or item == 'PHP6':
+                #                     print 'PHP, injection command'
+                #                     if "root:x:0:0:root:/root:/bin/bash" in r.content:
+                #                         print "injection success6!"
+                #                         injectSuccess = True
+                #                 #formDetails["url"] = url
+                #                 if injectSuccess == True:
+                #                     confirmForm = copy.deepcopy(formDetails)
+                #                     confirmForm["parameter"] = copy.deepcopy(valid_parameters)
+                #                     # formDetails["parameter"] = valid_parameters
+                #                     if len(valid_parameters) != 0:
+                #                         jsonform.append(confirmForm)
+                #                 #pprint("post form "+ssciForm.formdata["action"] +  " is vulnerable to CSRF")
+                #             else:
+                #                 print "status code", r.status_code
+                #
                 #         continue
                 #     except :
-                #         ''
+                        ''
                         #pprint('response is null')
 with open("../output/phase3_output.json",'w') as outfile:
     json.dump(jsonform,outfile, indent=2)

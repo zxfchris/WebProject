@@ -1,20 +1,9 @@
 [
     {
-        "url": "https://app3.com", 
-        "action": "https://app3.com/windows/code.php", 
+        "url": "http://bm1.com/case1/bm.php", 
+        "action": "http://bm1.com/case1/bm.php", 
         "parameter": {
-            "lines": "hidden_*_lines", 
-            "file": "hidden_*_file"
-        }, 
-        "method": "get"
-    }, 
-    {
-        "url": "https://app3.com", 
-        "action": "https://app3.com/windows/function.php", 
-        "parameter": {
-            "start": "hidden_*_start", 
-            "end": "hidden_*_end", 
-            "file": "hidden_*_file"
+            "q": "hidden_*_file"
         }, 
         "method": "get"
     }

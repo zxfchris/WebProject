@@ -1,6 +1,6 @@
 {
-	"login_url": "https://bm4.com/bm9.php",
-	"start_url": "https://bm4.com/bm9.php",
+	"login_url": "https://bm4.com/case3/bm.php",
+	"start_url": "https://bm4.com/case3/bm.php",
 	"login": "False",
 	"domain": "https://bm4.com",
 	"username": "admin",

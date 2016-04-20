@@ -1,8 +1,8 @@
 {
-	"login_url": "https://bm5.com/bm10.php",
-	"start_url": "https://bm5.com/bm10.php",
+	"login_url": "https://bm4.com/case4/bm.php",
+	"start_url": "https://bm4.com/case4/bm.php",
 	"login": "False",
-	"domain": "https://bm5.com",
+	"domain": "https://bm4.com",
 	"username": "admin",
 	"password": "admin"
 }
