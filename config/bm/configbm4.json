@@ -1,0 +1,8 @@
+{
+	"login_url": "http://bm2.com/case2/bm.php",
+	"start_url": "http://bm2.com/case2/bm.php",
+	"login": "False",
+	"domain": "http://bm2.com",
+	"username": "admin",
+	"password": "admin"
+}

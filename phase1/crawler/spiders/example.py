@@ -214,7 +214,9 @@ class ExampleSpider(CrawlSpider):
                         link_url = response.url + link[1:]
 
             else:
-                if (len(link) > 0 and link[0] != '/') or len(link) == 0:
+                if len(link) == 0:
+                    link_url = response.url
+                elif link[0] != '/':
                     direct = response.url.split('/')
                     path = ''
                     for i in range(len(direct) - 1):

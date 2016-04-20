@@ -56,15 +56,23 @@ with open('../output/phase1_output.json') as data_file:
                         evalData = json.load(evaluates)
                         for item in evalData:
                             ssciForm = Form(url, formDetails)
-                            print '!!!!!formLength'
-                            print len(ssciForm.formdata["parameter"])
-                            params = ssciForm.formdata["parameter"]
-                            for name in params.keys():
+                            # print '!!!!!formLength'
+                            # print len(ssciForm.formdata["parameter"])
+                            parameters = ssciForm.formdata["parameter"]
+                            for name in parameters.keys():
+                                print 'name:', name
+                                print 'value:', parameters[name]
                                 valid_parameters = dict(ssciForm.fill_entries(payload=evalData[item], paramkey=name))
-                                # print 'parameters!!!'
+                                print 'parameters!!!'
                                 print valid_parameters
                                 try:
+                                    newParam = ''
                                     r = client.get(action, params=urlencode(valid_parameters))
+                                    print 'print params~~~~~'
+                                    print
+                                    if 'q=http%3A%2F%2Fattacker.com%2Fa' == urlencode(valid_parameters):
+                                        print 'action:',action
+                                        print r.content
                                     if r != None:
                                         if r.status_code == 200:
                                             # print r.content
