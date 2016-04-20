@@ -1,6 +1,6 @@
-login_urls=['https://app3.com']
-start_urls=['https://app3.com']
-domain=['https://app3.com']
-username=''
-password=''
-login=False
+login_urls=['https://app9.com/index-test.php/site/login']
+start_urls=['https://app9.com/index-test.php/site/whatsNew']
+domain=['https://app9.com']
+username='admin'
+password='admin'
+login=True

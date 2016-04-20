@@ -113,27 +113,27 @@ with open('../output/phase1_output.json') as data_file:
                                 # except :
                                 #     ''
 
-                elif formDetails["method"].lower() == "post":# form is a post form, check for CSRF
-                    ssciForm = Form(url,formDetails)
-                    #we send a request with randomly filled in token
-                    valid_parameters = dict(ssciForm.fill_entries())
-
-                    try:
-                        r = client.post(action,valid_parameters)
-                        if r != None:#sometimes the request can not be processed
-                            pprint(r.content)
-                            if r.status_code == 200:#  reponse 200 means the CSRF is successful
-                                formDetails["parameter"] = valid_parameters
-                                if len(valid_parameters) != 0:
-                                    csrfTemp = False
-                                    for temp in valid_parameters:
-                                        if temp.lower().find("csrf") > -1 or temp.lower().find("token")>-1:
-                                            csrfTemp = True
-                                    if csrfTemp == False :
-                                        jsonform.append(formDetails)
-                        continue
-                    except :
-                        ''
+                # elif formDetails["method"].lower() == "post":# form is a post form, check for CSRF
+                #     ssciForm = Form(url,formDetails)
+                #     #we send a request with randomly filled in token
+                #     valid_parameters = dict(ssciForm.fill_entries())
+                #
+                #     try:
+                #         r = client.post(action,valid_parameters)
+                #         if r != None:#sometimes the request can not be processed
+                #             pprint(r.content)
+                #             if r.status_code == 200:#  reponse 200 means the CSRF is successful
+                #                 formDetails["parameter"] = valid_parameters
+                #                 if len(valid_parameters) != 0:
+                #                     csrfTemp = False
+                #                     for temp in valid_parameters:
+                #                         if temp.lower().find("csrf") > -1 or temp.lower().find("token")>-1:
+                #                             csrfTemp = True
+                #                     if csrfTemp == False :
+                #                         jsonform.append(formDetails)
+                #         continue
+                #     except :
+                #         ''
                         #pprint('response is null')
 with open("../output/phase3_output.json",'w') as outfile:
     json.dump(jsonform,outfile, indent=2)

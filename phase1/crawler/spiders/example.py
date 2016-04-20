@@ -68,22 +68,22 @@ class ExampleSpider(CrawlSpider):
         for line in lines:
             if line.find('open') > -1 and (line.find('?') > -1):
                 ####found possible injection point
-                print 'line: ', line
+                # print 'line: ', line
 
-                print self.originUrl[response.url]
+                # print self.originUrl[response.url]
 
                 content = line[line.find('(')+1:line.find(')')]
                 content = content.replace('\"+', '')
                 content = content.replace('+\"', '')
                 content = content.replace('\"', '')
-                print content
+                # print content
                 strs = content.split(',')
-                print strs
+                # print strs
                 method = ''
                 params = []
                 action = ''
                 for str in strs:
-                    print str
+                    # print str
                     if str.lower() == 'get':
                         method = 'get'
                     elif str.lower() == 'post':
@@ -116,8 +116,11 @@ class ExampleSpider(CrawlSpider):
 
         hxs = HtmlXPathSelector(response)
         links = hxs.xpath('//a/@href').extract()
-        js_links = hxs.xpath('//script/@src').extract()
         self.extract_forms(hxs, response)
+        js_links = hxs.xpath('//script/@src').extract()
+
+        # print '!!!!!!!links!!!!!!'
+        # print links
 
         for link in js_links:
             pattern = re.compile(r'javascript:void(0)')
@@ -168,7 +171,11 @@ class ExampleSpider(CrawlSpider):
                 formsfile = open('formslist', 'a')
                 formsfile.write("<form action='" + js_url + "' method='get'> ")
                 for param in params:
-                    name, value = param.split('=')
+                    value = ''
+                    kvpair = param.split('=')
+                    if len(kvpair) > 1:
+                        value = kvpair[1]
+                    name = kvpair[0]
                     formsfile.write("<input type='hidden' name='"+name+"' value='"+value+"'/>")
                 formsfile.write("</form>")
                 formsfile.write('\n')
@@ -180,61 +187,97 @@ class ExampleSpider(CrawlSpider):
             self.originUrl[js_url] = response.url
             yield Request(url=js_url, callback=self.parseJavascript)
 
-
         for link in links:
-            print "href src url: "+link
-            link = link.split('?')
-            params = []
-            if len(link) > 1:
-                param_url = link[1]
-                params = param_url.split('&')
-
-            link = link[0]
-            link_url = link
-
-            if link.find("logout") >-1 :
-                continue
-            if link.find("http") > -1:
-                if link.find(parameter.domain[0])<=-1:
-                    continue
-
-            elif len(link)>0 and link[0]=='#':
-                if (len(link)>1 and link[1]=='/') or len(link)==1:
-                    link_url = response.url + link[1:]
-                else:
-                    if response.url[-1:]!='/':
-                        link_url = response.url + '/' + link[1:]
-                    else:
-                        link_url = response.url + link[1:]
-
-            else:
-                if (len(link) > 0 and link[0] != '/') or len(link) == 0:
-                    direct = response.url.split('/')
-                    path = ''
-                    for i in range(len(direct) - 1):
-                        path = path + direct[i] + '/'
-                    if path.find(parameter.domain[0]) > -1:
-                        link_url = path + link
-                    else:
-                        link_url = response.url + '/' + link
-                else:
-                    link_url = parameter.domain[0] + link
-                print "src url: " + link_url
-
-            if len(params) > 0:
-                formsfile = open('formslist', 'a')
-                formsfile.write("<form action='" + link_url + "' method='get'> ")
-                for param in params:
-                    name, value = param.split('=')
-                    formsfile.write("<input type='hidden' name='" + name + "' value='" + value + "'/>")
-                formsfile.write("</form>")
+            print link
+            if link.find('status.php?op=del&status_id=')>-1:
+                ip=link.split('status.php?op=del&status_id=')[1]
+                delform="<form action='status.php'> <input name='op' type='hidden' value='del'/><input name='status_id' type='hidden' value='"+id+"'/></form>"
+                formsfile=open('formslist','a')
+                linksfile=open('linkslist','a')
+                formsfile.write(form)
                 formsfile.write('\n')
-                linksfile = open('linkslist', 'a')
                 linksfile.write(response.url)
                 linksfile.write('\n')
                 formsfile.close()
                 linksfile.close()
-            yield Request(url=link_url)
+                continue
+            elif link.find('resolution.php?op=del&resolution_id=')>-1:
+                ip=link.split('resolution.php?op=del&resolution_id=')[1]
+                delform="<form action='resolution.php'> <input name='op' type='hidden' value='del'/><input name='resolution_id' type='hidden' value='"+id+"'/></form>"
+                formsfile=open('formslist','a')
+                linksfile=open('linkslist','a')
+                formsfile.write(form)
+                formsfile.write('\n')
+                linksfile.write(response.url)
+                linksfile.write('\n')
+                formsfile.close()
+                linksfile.close()
+                continue
+            elif link.find('severity.php?op=del&severity_id=')>-1:
+                ip=link.split('severity.php?op=del&severity_id=')[1]
+                delform="<form action='severity.php'> <input name='op' type='hidden' value='del'/><input name='severity_id' type='hidden' value='"+id+"'/></form>"
+                formsfile=open('formslist','a')
+                linksfile=open('linkslist','a')
+                formsfile.write(form)
+                formsfile.write('\n')
+                linksfile.write(response.url)
+                linksfile.write('\n')
+                formsfile.close()
+                linksfile.close()
+                continue
+            elif link.find('os.php?op=del&os_id=')>-1:
+                ip=link.split('os.php?op=del&os_id=')[1]
+                delform="<form action='os.php'> <input name='op' type='hidden' value='del'/><input name='os_id' type='hidden' value='"+id+"'/></form>"
+                formsfile=open('formslist','a')
+                linksfile=open('linkslist','a')
+                formsfile.write(form)
+                formsfile.write('\n')
+                linksfile.write(response.url)
+                linksfile.write('\n')
+                formsfile.close()
+                linksfile.close()
+                continue
+            #print "THIS IS A LINK" + link
+            #only process external/full link
+#            cookie.load(response.headers['Set-Cookie'])
+            if link.find("logout") >-1 :
+                continue
+            if link.find("http") > -1:
+                if link.find(parameter.domain[0])>-1:
+                    #print link
+                    yield Request(url=link)
+                else:
+                    continue
+
+            elif len(link)>0 and link[0]=='#':
+                direct=response.url.split('/')
+                if  (len(link)>1 and link[1]=='/') or len(link)==1:
+                    #print response.url+link[1:]
+                    yield Request(url=response.url+link[1:])
+                else:
+                    if response.url[-1:]!='/':
+                        #print response.url+'/'+link[1:]
+                        yield Request(url=response.url+'/'+link[1:])
+                    else:
+                        #print response.url+link[1:]
+                        yield Request(url=response.url+link[1:])
+
+            else:
+                if (len(link)>0 and link[0]!='/') or len(link)==0:
+                    direct=response.url.split('/')
+                    path=''
+                    for i in range(len(direct)-1):
+                        path=path+direct[i]+'/'
+                    #print path+link
+                    yield Request(url=path+link)
+                else:
+                    #print parameter.domain[0]+link
+                    yield Request(url=parameter.domain[0]+link)
+        item = LinkItem()
+        #if len(hxs.xpath('//title/text()').extract())>0:
+        item["title"] = hxs.xpath('//title/text()').extract()[0]
+        item["url"] = response.url
+        yield self.collect_item(item)
 
         item = LinkItem()
         if len(hxs.xpath('//title/text()').extract())>0:

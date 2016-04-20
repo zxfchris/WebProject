@@ -1,2 +1,48 @@
-<form action='https://app3.com/windows/function.php' method='get'> <input type='hidden' name='file' value='file'/><input type='hidden' name='start' value='start'/><input type='hidden' name='end' value='end'/></form>
-<form action='https://app3.com/windows/code.php' method='get'> <input type='hidden' name='file' value='file'/><input type='hidden' name='lines' value='lines'/></form>
+<form id="yw0" action="/index-test.php/site/login" method="post"><!--<h2>Welcome to X2Engine.</h2>-->
+<div class="form" id="login-form">
+	<div class="row">
+		<div class="cell">
+			<img id="login-logo" width="80" height="71" src="/images/x2engine_crm_login.png" alt="X2Engine">		</div>
+		<div class="cell" style="margin:0;width:225px;">
+		
+			<label for="LoginForm_username">Username</label>			<input autofocus="autofocus" name="LoginForm[username]" id="LoginForm_username" type="text">			
+			<label style="margin-top:5px;" for="LoginForm_password">Password</label>			<input name="LoginForm[password]" id="LoginForm_password" type="password">									<div class="row checkbox" style="margin-top:5px;">
+				<div class="cell">
+					<input class="x2-button" type="submit" name="yt0" value="Login">				</div>
+
+				<div class="cell" style="margin-left:10px;padding-top:12px;padding-left:5px;">
+					<input id="ytLoginForm_rememberMe" type="hidden" value="0" name="LoginForm[rememberMe]"><input value="1" uncheckedvalue="0" name="LoginForm[rememberMe]" id="LoginForm_rememberMe" type="checkbox">					<label style="font-size:10px;" for="LoginForm_rememberMe">Remember me</label>					<br>
+					
+				</div>		
+			</div>
+		</div>
+	</div>
+	<div class="row" id="login-links" style="margin-top:10px;text-align:center;">
+		<a class="x2touch-link" href="https://app9.com/index-test.php/site/googleLogin"><img src="/images/google_icon.png" id="google-icon"> Login with Google</a>		<a class="x2touch-link" href="/index.php/x2touch"><img src="/images/mobile.png" id="mobile-icon"> X2Touch Mobile</a>	</div>
+</div>
+<!--<div id="login-logo"></div>-->
+</form>
+<form id="yw0" action="/index-test.php/site/login" method="post"><!--<h2>Welcome to X2Engine.</h2>-->
+<div class="form" id="login-form">
+	<div class="row">
+		<div class="cell">
+			<img id="login-logo" width="80" height="71" src="/images/x2engine_crm_login.png" alt="X2Engine">		</div>
+		<div class="cell" style="margin:0;width:225px;">
+		
+			<label for="LoginForm_username">Username</label>			<input autofocus="autofocus" name="LoginForm[username]" id="LoginForm_username" type="text">			
+			<label style="margin-top:5px;" for="LoginForm_password">Password</label>			<input name="LoginForm[password]" id="LoginForm_password" type="password">									<div class="row checkbox" style="margin-top:5px;">
+				<div class="cell">
+					<input class="x2-button" type="submit" name="yt0" value="Login">				</div>
+
+				<div class="cell" style="margin-left:10px;padding-top:12px;padding-left:5px;">
+					<input id="ytLoginForm_rememberMe" type="hidden" value="0" name="LoginForm[rememberMe]"><input value="1" uncheckedvalue="0" name="LoginForm[rememberMe]" id="LoginForm_rememberMe" type="checkbox">					<label style="font-size:10px;" for="LoginForm_rememberMe">Remember me</label>					<br>
+					
+				</div>		
+			</div>
+		</div>
+	</div>
+	<div class="row" id="login-links" style="margin-top:10px;text-align:center;">
+		<a class="x2touch-link" href="https://app9.com/index-test.php/site/googleLogin"><img src="/images/google_icon.png" id="google-icon"> Login with Google</a>		<a class="x2touch-link" href="/index.php/x2touch"><img src="/images/mobile.png" id="mobile-icon"> X2Touch Mobile</a>	</div>
+</div>
+<!--<div id="login-logo"></div>-->
+</form>
