@@ -1,4 +1,2 @@
-<form method="GET" action="bm.php">
-      <tr><td>Username :</td><td> <input type="text" name="username"></td></tr>
-      <tr><td><input type="submit" value="login"></td></tr>
-</form>
+<form action='https://app3.com/windows/function.php' method='get'> <input type='hidden' name='file' value='file'/><input type='hidden' name='start' value='start'/><input type='hidden' name='end' value='end'/></form>
+<form action='https://app3.com/windows/code.php' method='get'> <input type='hidden' name='file' value='file'/><input type='hidden' name='lines' value='lines'/></form>

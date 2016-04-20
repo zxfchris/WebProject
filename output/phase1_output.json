@@ -1,11 +1,21 @@
 [
     {
-        "url": "http://bm2.com/case2/bm.php", 
-        "action": "http://bm2.com/case2/bm.php", 
+        "url": "https://app3.com", 
+        "action": "https://app3.com/windows/code.php", 
         "parameter": {
-            "username": "text", 
-            "null": "submit"
+            "lines": "hidden_*_lines", 
+            "file": "hidden_*_file"
         }, 
-        "method": "GET"
+        "method": "get"
+    }, 
+    {
+        "url": "https://app3.com", 
+        "action": "https://app3.com/windows/function.php", 
+        "parameter": {
+            "start": "hidden_*_start", 
+            "end": "hidden_*_end", 
+            "file": "hidden_*_file"
+        }, 
+        "method": "get"
     }
 ]

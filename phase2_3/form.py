@@ -1,5 +1,3 @@
-__author__ = 'Sun Fei'
-
 import requests
 import copy
 
@@ -63,16 +61,18 @@ class Form(object):
                             else:
                                 value =''
                             yield name, value
-        elif method =="get":
+        elif method == "get":
             params = self.formdata["parameter"]
             for name in params.keys():
-                print 'name: ', name
+                # print 'name2: ', name
+                # print 'paramkey:', paramkey
                 if name == paramkey:
+                    # print 'name == paramkey'
                     type = params[name]
                     if filter_type is None:
                         if type != "" and type != None:
                             if type.startswith("hidden_*_"):
-                                print(type)
+                                # print(type)
                                 if payload != '':
                                     value = payload
                                 else:
@@ -83,39 +83,38 @@ class Form(object):
                             else:
                                 value =''
                             yield name, value
-                    elif filter_type == "hidden":
-                        if type != "" and type !="hidden" and type!=None:
-                            if type.startswith("hidden_*_"):
-                                splitString= type.split("_*_")
-                                value = splitString[1]
-                            elif type in self.type_dictionary.keys():
-                                value = self.type_dictionary[type]
-                            else:
-                                value =''
-                            yield name, value
+                    # elif filter_type == "hidden":
+                    #     if type != "" and type !="hidden" and type!=None:
+                    #         if type.startswith("hidden_*_"):
+                    #             splitString= type.split("_*_")
+                    #             value = splitString[1]
+                    #         elif type in self.type_dictionary.keys():
+                    #             value = self.type_dictionary[type]
+                    #         else:
+                    #             value =''
+                    #         yield name, value
                 else:
                     type = params[name]
                     if filter_type is None:
                         if type != "" and type != None:
                             if type.startswith("hidden_*_"):
-                                print(type)
                                 splitString= type.split("_*_")
                                 value = splitString[1]
                             elif type == 'text':
-                                value = payload
+                                value = 'text'
                             else:
                                 value =''
                             yield name, value
-                    elif filter_type == "hidden":
-                        if type != "" and type !="hidden" and type!=None:
-                            if type.startswith("hidden_*_"):
-                                splitString= type.split("_*_")
-                                value = splitString[1]
-                            elif type in self.type_dictionary.keys():
-                                value = self.type_dictionary[type]
-                            else:
-                                value =''
-                            yield name, value
+                    # elif filter_type == "hidden":
+                    #     if type != "" and type !="hidden" and type!=None:
+                    #         if type.startswith("hidden_*_"):
+                    #             splitString= type.split("_*_")
+                    #             value = splitString[1]
+                    #         elif type in self.type_dictionary.keys():
+                    #             value = self.type_dictionary[type]
+                    #         else:
+                    #             value =''
+                    #         yield name, value
 
 
     def send(self,url,data,method):

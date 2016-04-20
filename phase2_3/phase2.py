@@ -1,6 +1,4 @@
-__author__ = 'Sun Fei'
-
-import json;
+import json
 
 
 payload = {"text": "abcdefgh",
