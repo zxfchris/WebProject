@@ -74,7 +74,8 @@ with open('../output/phase1_output.json') as data_file:
                                             # print r.url
                                             injectSuccess = False
                                             if item == 'LFI1':
-                                                if "root:x:0:0:root:/root:/bin/bash" in r.content:
+                                                if "root:x:0:0:root:/root:/bin/bash" in r.content \
+                                                        or '/var/root:/bin/sh' in r.content:
                                                     print "injection success1!"
                                                     injectSuccess = True
                                             elif item == 'LFI2' or item == 'LFI3' or item == 'LFI4':
@@ -100,16 +101,20 @@ with open('../output/phase1_output.json') as data_file:
                                                     injectSuccess = True
                                             elif item == 'PHP3' or item == 'PHP4':
                                                 print 'PHP, show special string'
-                                                if "afadsfaefasdfafezdfa" in r.content \
-                                                        and "echo \"afadsfaefasdfafezdfa\"" not in r.content:
-                                                        #                                                      \
+                                                # if "afadsfaefasdfafezdfa" in r.content \
+                                                #         and "echo" not in r.content:
+                                                        # and "echo \"afadsfaefasdfafezdfa\"" not in r.content\
                                                         # and "echo%20%22afadsfaefasdfafezdfa%22" not in r.content:
-                                                    print "injection success5!"
-                                                    print 'PHP, show special string'
-                                                    injectSuccess = True
+                                                start = r.content.find('afadsfaefasdfafezdfa')
+                                                if start > -1:
+                                                    if "echo" not in r.content[start - 20:start]:
+                                                        print "injection success5!"
+                                                        print 'PHP, show special string'
+                                                        injectSuccess = True
                                             elif item == 'PHP5' or item == 'PHP6':
                                                 print 'PHP, injection command'
-                                                if "root:x:0:0:root:/root:/bin/bash" in r.content:
+                                                if "root:x:0:0:root:/root:/bin/bash" in r.content \
+                                                        or '/var/root:/bin/sh' in r.content:
                                                     print "injection success6!"
                                                     injectSuccess = True
                                             #formDetails["url"] = url

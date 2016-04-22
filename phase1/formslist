@@ -1,2 +1,304 @@
-<form action='http://bm1.com/case1/bm.php' method='get'> <input type='hidden' name='q' value='file'/></form>
-<form action='http://bm1.com/case1/bm.php' method='get'> <input type='hidden' name='q' value='file'/></form>
+<form name="subscribe_form" action="http://osclass.org/" method="post" class="dash-widget-form"><input type="hidden" name="CSRFName" value="CSRF552705128_50891869">
+        <input type="hidden" name="CSRFToken" value="ee5bcb17e28e98288c24eb77dc5fee10b75391c1e9f6c0b1ba9131b9fa32a270cc6d76a05c228ca0d3f2592b729403ac8929021b3dba9e068d59fb6ad5eacaeb">
+                        <input type="hidden" name="subscribe" value="submit">
+                        <input type="hidden" name="return_path" value="https://app7.com/oc-admin/">
+                        <input type="hidden" name="source" value="osclass">
+                        <fieldset>
+                            <div class="form">
+                                <p>
+                                    Want the latest tips and updates delivered to your inbox? <strong>Sign up now!</strong>                                </p>
+                                <div class="form-row">
+                                    <div class="form-controls">
+                                        <input type="text" class="xlarge" name="email" value="">
+                                        <input type="submit" class="btn btn-mini" name="submit" value="Subscribe">
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+<form name="_xclick" action="https://www.paypal.com/in/cgi-bin/webscr" method="post" class="dash-widget-form"><input type="hidden" name="CSRFName" value="CSRF552705128_50891869">
+        <input type="hidden" name="CSRFToken" value="ee5bcb17e28e98288c24eb77dc5fee10b75391c1e9f6c0b1ba9131b9fa32a270cc6d76a05c228ca0d3f2592b729403ac8929021b3dba9e068d59fb6ad5eacaeb">
+                        <input type="hidden" name="cmd" value="_donations">
+                        <input type="hidden" name="rm" value="2">
+                        <input type="hidden" name="business" value="info@osclass.org">
+                        <input type="hidden" name="item_name" value="Osclass project">
+                        <input type="hidden" name="return" value="http://osclass.org/paypal/">
+                        <input type="hidden" name="currency_code" value="USD">
+                        <input type="hidden" name="lc" value="US">
+                        <input type="hidden" name="custom" value="https://app7.com/oc-admin/?donation=successful&amp;source=dashboard">
+                        <fieldset>
+                            <div class="form">
+                                <p>Osclass is a free, open-source project, sustained by the community. Money received from donations will be used to further development and improve the project.</p>
+                                <div class="form-row">
+                                    <div class="form-controls">
+                                        <select name="amount" class="select-box-medium">
+                                            <option value="50">50$</option>
+                                            <option value="25">25$</option>
+                                            <option value="10" selected>10$</option>
+                                            <option value="5">5$</option>
+                                            <option value="">Custom</option>
+                                        </select><input type="submit" class="btn btn-mini" name="submit" value="Donate">
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+<form id="donate-form" name="_xclick" action="https://www.paypal.com/in/cgi-bin/webscr" method="post" target="_blank"><input type="hidden" name="CSRFName" value="CSRF552705128_50891869">
+        <input type="hidden" name="CSRFToken" value="ee5bcb17e28e98288c24eb77dc5fee10b75391c1e9f6c0b1ba9131b9fa32a270cc6d76a05c228ca0d3f2592b729403ac8929021b3dba9e068d59fb6ad5eacaeb">
+       <input type="hidden" name="cmd" value="_donations">
+       <input type="hidden" name="business" value="info@osclass.org">
+       <input type="hidden" name="item_name" value="Osclass project">
+       <input type="hidden" name="return" value="https://app7.com/oc-admin/">
+       <input type="hidden" name="currency_code" value="USD">
+       <input type="hidden" name="lc" value="US">
+    </form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='tools'/><input type='hidden' name='action' value='upgrade'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='action' value='logout'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='items'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='items'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='items'/><input type='hidden' name='action' value='items_reported'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='media'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='comments'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='cfields'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='items'/><input type='hidden' name='action' value='settings'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='market'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='market'/><input type='hidden' name='action' value='themes'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='market'/><input type='hidden' name='action' value='plugins'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='market'/><input type='hidden' name='action' value='languages'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='appearance'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='appearance'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='market'/><input type='hidden' name='action' value='themes'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='appearance'/><input type='hidden' name='action' value='widgets'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='appearance'/><input type='hidden' name='action' value='render'/><input type='hidden' name='file' value='oc-content/themes/bender/admin/header.php'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='appearance'/><input type='hidden' name='action' value='render'/><input type='hidden' name='file' value='oc-content/themes/bender/admin/settings.php'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='plugins'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='plugins'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='market'/><input type='hidden' name='action' value='plugins'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='plugins'/><input type='hidden' name='action' value='renderplugin'/><input type='hidden' name='route' value='phpinfo'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='stats'/><input type='hidden' name='action' value='items'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='stats'/><input type='hidden' name='action' value='items'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='stats'/><input type='hidden' name='action' value='reports'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='stats'/><input type='hidden' name='action' value='users'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='stats'/><input type='hidden' name='action' value='comments'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='settings'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='settings'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='categories'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='settings'/><input type='hidden' name='action' value='comments'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='settings'/><input type='hidden' name='action' value='locations'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='emails'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='languages'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='settings'/><input type='hidden' name='action' value='permalinks'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='settings'/><input type='hidden' name='action' value='spamNbots'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='settings'/><input type='hidden' name='action' value='currencies'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='settings'/><input type='hidden' name='action' value='mailserver'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='settings'/><input type='hidden' name='action' value='media'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='settings'/><input type='hidden' name='action' value='latestsearches'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='settings'/><input type='hidden' name='action' value='advanced'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='pages'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='users'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='users'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='users'/><input type='hidden' name='action' value='settings'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='admins'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='admins'/><input type='hidden' name='action' value='edit'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='users'/><input type='hidden' name='action' value='alerts'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='users'/><input type='hidden' name='action' value='ban'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='tools'/><input type='hidden' name='action' value='import'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='tools'/><input type='hidden' name='action' value='import'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='tools'/><input type='hidden' name='action' value='backup'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='tools'/><input type='hidden' name='action' value='upgrade'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='tools'/><input type='hidden' name='action' value='locations'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='tools'/><input type='hidden' name='action' value='category'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='tools'/><input type='hidden' name='action' value='maintenance'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='ajax'/><input type='hidden' name='action' value='runhook'/><input type='hidden' name='hook' value='compactmode'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='items'/><input type='hidden' name='catId' value='1'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='items'/><input type='hidden' name='catId' value='9'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='stats'/><input type='hidden' name='action' value='items'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='stats'/><input type='hidden' name='action' value='users'/></form>
+<form name="subscribe_form" action="http://osclass.org/" method="post" class="dash-widget-form"><input type="hidden" name="CSRFName" value="CSRF552705128_50891869">
+        <input type="hidden" name="CSRFToken" value="ee5bcb17e28e98288c24eb77dc5fee10b75391c1e9f6c0b1ba9131b9fa32a270cc6d76a05c228ca0d3f2592b729403ac8929021b3dba9e068d59fb6ad5eacaeb">
+                        <input type="hidden" name="subscribe" value="submit">
+                        <input type="hidden" name="return_path" value="https://app7.com/oc-admin/">
+                        <input type="hidden" name="source" value="osclass">
+                        <fieldset>
+                            <div class="form">
+                                <p>
+                                    Want the latest tips and updates delivered to your inbox? <strong>Sign up now!</strong>                                </p>
+                                <div class="form-row">
+                                    <div class="form-controls">
+                                        <input type="text" class="xlarge" name="email" value="">
+                                        <input type="submit" class="btn btn-mini" name="submit" value="Subscribe">
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+<form name="_xclick" action="https://www.paypal.com/in/cgi-bin/webscr" method="post" class="dash-widget-form"><input type="hidden" name="CSRFName" value="CSRF552705128_50891869">
+        <input type="hidden" name="CSRFToken" value="ee5bcb17e28e98288c24eb77dc5fee10b75391c1e9f6c0b1ba9131b9fa32a270cc6d76a05c228ca0d3f2592b729403ac8929021b3dba9e068d59fb6ad5eacaeb">
+                        <input type="hidden" name="cmd" value="_donations">
+                        <input type="hidden" name="rm" value="2">
+                        <input type="hidden" name="business" value="info@osclass.org">
+                        <input type="hidden" name="item_name" value="Osclass project">
+                        <input type="hidden" name="return" value="http://osclass.org/paypal/">
+                        <input type="hidden" name="currency_code" value="USD">
+                        <input type="hidden" name="lc" value="US">
+                        <input type="hidden" name="custom" value="https://app7.com/oc-admin/?donation=successful&amp;source=dashboard">
+                        <fieldset>
+                            <div class="form">
+                                <p>Osclass is a free, open-source project, sustained by the community. Money received from donations will be used to further development and improve the project.</p>
+                                <div class="form-row">
+                                    <div class="form-controls">
+                                        <select name="amount" class="select-box-medium">
+                                            <option value="50">50$</option>
+                                            <option value="25">25$</option>
+                                            <option value="10" selected>10$</option>
+                                            <option value="5">5$</option>
+                                            <option value="">Custom</option>
+                                        </select><input type="submit" class="btn btn-mini" name="submit" value="Donate">
+                                    </div>
+                                </div>
+                            </div>
+                        </fieldset>
+                    </form>
+<form id="donate-form" name="_xclick" action="https://www.paypal.com/in/cgi-bin/webscr" method="post" target="_blank"><input type="hidden" name="CSRFName" value="CSRF552705128_50891869">
+        <input type="hidden" name="CSRFToken" value="ee5bcb17e28e98288c24eb77dc5fee10b75391c1e9f6c0b1ba9131b9fa32a270cc6d76a05c228ca0d3f2592b729403ac8929021b3dba9e068d59fb6ad5eacaeb">
+       <input type="hidden" name="cmd" value="_donations">
+       <input type="hidden" name="business" value="info@osclass.org">
+       <input type="hidden" name="item_name" value="Osclass project">
+       <input type="hidden" name="return" value="https://app7.com/oc-admin/">
+       <input type="hidden" name="currency_code" value="USD">
+       <input type="hidden" name="lc" value="US">
+    </form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='tools'/><input type='hidden' name='action' value='upgrade'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='action' value='logout'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='items'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='items'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='items'/><input type='hidden' name='action' value='items_reported'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='media'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='comments'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='cfields'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='items'/><input type='hidden' name='action' value='settings'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='market'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='market'/><input type='hidden' name='action' value='themes'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='market'/><input type='hidden' name='action' value='plugins'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='market'/><input type='hidden' name='action' value='languages'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='appearance'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='appearance'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='market'/><input type='hidden' name='action' value='themes'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='appearance'/><input type='hidden' name='action' value='widgets'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='appearance'/><input type='hidden' name='action' value='render'/><input type='hidden' name='file' value='oc-content/themes/bender/admin/header.php'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='appearance'/><input type='hidden' name='action' value='render'/><input type='hidden' name='file' value='oc-content/themes/bender/admin/settings.php'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='plugins'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='plugins'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='market'/><input type='hidden' name='action' value='plugins'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='plugins'/><input type='hidden' name='action' value='renderplugin'/><input type='hidden' name='route' value='phpinfo'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='stats'/><input type='hidden' name='action' value='items'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='stats'/><input type='hidden' name='action' value='items'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='stats'/><input type='hidden' name='action' value='reports'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='stats'/><input type='hidden' name='action' value='users'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='stats'/><input type='hidden' name='action' value='comments'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='settings'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='settings'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='categories'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='settings'/><input type='hidden' name='action' value='comments'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='settings'/><input type='hidden' name='action' value='locations'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='emails'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='languages'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='settings'/><input type='hidden' name='action' value='permalinks'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='settings'/><input type='hidden' name='action' value='spamNbots'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='settings'/><input type='hidden' name='action' value='currencies'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='settings'/><input type='hidden' name='action' value='mailserver'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='settings'/><input type='hidden' name='action' value='media'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='settings'/><input type='hidden' name='action' value='latestsearches'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='settings'/><input type='hidden' name='action' value='advanced'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='pages'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='users'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='users'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='users'/><input type='hidden' name='action' value='settings'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='admins'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='admins'/><input type='hidden' name='action' value='edit'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='users'/><input type='hidden' name='action' value='alerts'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='users'/><input type='hidden' name='action' value='ban'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='tools'/><input type='hidden' name='action' value='import'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='tools'/><input type='hidden' name='action' value='import'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='tools'/><input type='hidden' name='action' value='backup'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='tools'/><input type='hidden' name='action' value='upgrade'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='tools'/><input type='hidden' name='action' value='locations'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='tools'/><input type='hidden' name='action' value='category'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='tools'/><input type='hidden' name='action' value='maintenance'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='ajax'/><input type='hidden' name='action' value='runhook'/><input type='hidden' name='hook' value='compactmode'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='items'/><input type='hidden' name='catId' value='1'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='items'/><input type='hidden' name='catId' value='9'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='stats'/><input type='hidden' name='action' value='items'/></form>
+<form action='https://app7.com/oc-admin/index.php' method='get'> <input type='hidden' name='page' value='stats'/><input type='hidden' name='action' value='users'/></form>
+<form action="https://app7.com/index.php" method="get" class="search nocsrf">
+        <input type="hidden" name="page" value="search">
+        <div class="main-search">
+            <div class="cell">
+                <input type="text" name="sPattern" id="query" class="input-text" value="" placeholder="ie. PHP Programmer">
+            </div>
+                            <div class="cell selector">
+                    <select name="sCategory" id="sCategory"><option value="">Select a category</option><option value="1">For sale</option><option value="9">  Animals</option><option value="10">  Art - Collectibles</option><option value="11">  Barter</option><option value="12">  Books - Magazines</option><option value="13">  Cameras - Camera Accessories</option><option value="14">  CDs - Records</option><option value="15">  Cell Phones - Accessories</option><option value="16">  Clothing</option><option value="17">  Computers - Hardware</option><option value="18">  DVD</option><option value="19">  Electronics</option><option value="20">  For Babies - Infants</option><option value="21">  Garage Sale</option><option value="22">  Health - Beauty</option><option value="23">  Home - Furniture - Garden Supplies</option><option value="24">  Jewelry - Watches</option><option value="25">  Musical Instruments</option><option value="26">  Sporting Goods - Bicycles</option><option value="27">  Tickets</option><option value="28">  Toys - Games - Hobbies</option><option value="29">  Video Games - Consoles</option><option value="30">  Everything Else</option><option value="2">Vehicles</option><option value="31">  Cars</option><option value="32">  Car Parts</option><option value="33">  Motorcycles</option><option value="34">  Boats - Ships</option><option value="35">  RVs - Campers - Caravans</option><option value="36">  Trucks - Commercial Vehicles</option><option value="37">  Other Vehicles</option><option value="3">Classes</option><option value="38">  Computer - Multimedia Classes</option><option value="39">  Language Classes</option><option value="40">  Music - Theatre - Dance Classes</option><option value="41">  Tutoring - Private Lessons</option><option value="42">  Other Classes</option><option value="4">Real estate</option><option value="43">  Houses - Apartments for Sale</option><option value="44">  Houses - Apartments for Rent</option><option value="45">  Rooms for Rent - Shared</option><option value="46">  Housing Swap</option><option value="47">  Vacation Rentals</option><option value="48">  Parking Spots</option><option value="49">  Land</option><option value="50">  Office - Commercial Space</option><option value="51">  Shops for Rent - Sale</option><option value="5">Services</option><option value="52">  Babysitter - Nanny</option><option value="53">  Casting - Auditions</option><option value="54">  Computer</option><option value="55">  Event Services</option><option value="56">  Health - Beauty - Fitness</option><option value="57">  Horoscopes - Tarot</option><option value="58">  Household - Domestic Help</option><option value="59">  Moving - Storage</option><option value="60">  Repair</option><option value="61">  Writing - Editing - Translating</option><option value="62">  Other Services</option><option value="6">Community</option><option value="63">  Carpool</option><option value="64">  Community Activities</option><option value="65">  Events</option><option value="66">  Musicians - Artists - Bands</option><option value="67">  Volunteers</option><option value="68">  Lost And Found</option><option value="7">Personals</option><option value="69">  Women looking for Men</option><option value="70">  Men looking for Women</option><option value="71">  Men looking for Men</option><option value="72">  Women looking for Women</option><option value="73">  Friendship - Activity Partners</option><option value="74">  Missed Connections</option><option value="8">Jobs</option><option value="75">  Accounting - Finance</option><option value="76">  Advertising - Public Relations</option><option value="77">  Arts - Entertainment - Publishing</option><option value="78">  Clerical - Administrative</option><option value="79">  Customer Service</option><option value="80">  Education - Training</option><option value="81">  Engineering - Architecture</option><option value="82">  Healthcare</option><option value="83">  Human Resource</option><option value="84">  Internet</option><option value="85">  Legal</option><option value="86">  Manual Labor</option><option value="87">  Manufacturing - Operations</option><option value="88">  Marketing</option><option value="89">  Non-profit - Volunteer</option><option value="90">  Real Estate</option><option value="91">  Restaurant - Food Service</option><option value="92">  Retail</option><option value="93">  Sales</option><option value="94">  Technology</option><option value="95">  Other Jobs</option></select>                </div>
+                <div class="cell reset-padding">
+                            <button class="ui-button ui-button-big js-submit">Search</button>
+            </div>
+        </div>
+        <div id="message-seach"></div>
+    </form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='login'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='register'/><input type='hidden' name='action' value='register'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='item'/><input type='hidden' name='action' value='item_add'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='search'/><input type='hidden' name='sCategory' value='1'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='search'/><input type='hidden' name='sCategory' value='9'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='search'/><input type='hidden' name='sCategory' value='2'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='search'/><input type='hidden' name='sCategory' value='3'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='search'/><input type='hidden' name='sCategory' value='4'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='search'/><input type='hidden' name='sCategory' value='5'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='search'/><input type='hidden' name='sCategory' value='6'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='search'/><input type='hidden' name='sCategory' value='7'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='search'/><input type='hidden' name='sCategory' value='8'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='sShowAs' value='list'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='sShowAs' value='gallery'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='item'/><input type='hidden' name='id' value='1'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='item'/><input type='hidden' name='id' value='1'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='item'/><input type='hidden' name='id' value='2'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='item'/><input type='hidden' name='id' value='2'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='login'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='register'/><input type='hidden' name='action' value='register'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='item'/><input type='hidden' name='action' value='item_add'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='contact'/></form>
+<form action="https://app7.com/index.php" method="get" class="search nocsrf">
+        <input type="hidden" name="page" value="search">
+        <div class="main-search">
+            <div class="cell">
+                <input type="text" name="sPattern" id="query" class="input-text" value="" placeholder="ie. PHP Programmer">
+            </div>
+                            <div class="cell selector">
+                    <select name="sCategory" id="sCategory"><option value="">Select a category</option><option value="1">For sale</option><option value="9">  Animals</option><option value="10">  Art - Collectibles</option><option value="11">  Barter</option><option value="12">  Books - Magazines</option><option value="13">  Cameras - Camera Accessories</option><option value="14">  CDs - Records</option><option value="15">  Cell Phones - Accessories</option><option value="16">  Clothing</option><option value="17">  Computers - Hardware</option><option value="18">  DVD</option><option value="19">  Electronics</option><option value="20">  For Babies - Infants</option><option value="21">  Garage Sale</option><option value="22">  Health - Beauty</option><option value="23">  Home - Furniture - Garden Supplies</option><option value="24">  Jewelry - Watches</option><option value="25">  Musical Instruments</option><option value="26">  Sporting Goods - Bicycles</option><option value="27">  Tickets</option><option value="28">  Toys - Games - Hobbies</option><option value="29">  Video Games - Consoles</option><option value="30">  Everything Else</option><option value="2">Vehicles</option><option value="31">  Cars</option><option value="32">  Car Parts</option><option value="33">  Motorcycles</option><option value="34">  Boats - Ships</option><option value="35">  RVs - Campers - Caravans</option><option value="36">  Trucks - Commercial Vehicles</option><option value="37">  Other Vehicles</option><option value="3">Classes</option><option value="38">  Computer - Multimedia Classes</option><option value="39">  Language Classes</option><option value="40">  Music - Theatre - Dance Classes</option><option value="41">  Tutoring - Private Lessons</option><option value="42">  Other Classes</option><option value="4">Real estate</option><option value="43">  Houses - Apartments for Sale</option><option value="44">  Houses - Apartments for Rent</option><option value="45">  Rooms for Rent - Shared</option><option value="46">  Housing Swap</option><option value="47">  Vacation Rentals</option><option value="48">  Parking Spots</option><option value="49">  Land</option><option value="50">  Office - Commercial Space</option><option value="51">  Shops for Rent - Sale</option><option value="5">Services</option><option value="52">  Babysitter - Nanny</option><option value="53">  Casting - Auditions</option><option value="54">  Computer</option><option value="55">  Event Services</option><option value="56">  Health - Beauty - Fitness</option><option value="57">  Horoscopes - Tarot</option><option value="58">  Household - Domestic Help</option><option value="59">  Moving - Storage</option><option value="60">  Repair</option><option value="61">  Writing - Editing - Translating</option><option value="62">  Other Services</option><option value="6">Community</option><option value="63">  Carpool</option><option value="64">  Community Activities</option><option value="65">  Events</option><option value="66">  Musicians - Artists - Bands</option><option value="67">  Volunteers</option><option value="68">  Lost And Found</option><option value="7">Personals</option><option value="69">  Women looking for Men</option><option value="70">  Men looking for Women</option><option value="71">  Men looking for Men</option><option value="72">  Women looking for Women</option><option value="73">  Friendship - Activity Partners</option><option value="74">  Missed Connections</option><option value="8">Jobs</option><option value="75">  Accounting - Finance</option><option value="76">  Advertising - Public Relations</option><option value="77">  Arts - Entertainment - Publishing</option><option value="78">  Clerical - Administrative</option><option value="79">  Customer Service</option><option value="80">  Education - Training</option><option value="81">  Engineering - Architecture</option><option value="82">  Healthcare</option><option value="83">  Human Resource</option><option value="84">  Internet</option><option value="85">  Legal</option><option value="86">  Manual Labor</option><option value="87">  Manufacturing - Operations</option><option value="88">  Marketing</option><option value="89">  Non-profit - Volunteer</option><option value="90">  Real Estate</option><option value="91">  Restaurant - Food Service</option><option value="92">  Retail</option><option value="93">  Sales</option><option value="94">  Technology</option><option value="95">  Other Jobs</option></select>                </div>
+                <div class="cell reset-padding">
+                            <button class="ui-button ui-button-big js-submit">Search</button>
+            </div>
+        </div>
+        <div id="message-seach"></div>
+    </form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='login'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='register'/><input type='hidden' name='action' value='register'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='item'/><input type='hidden' name='action' value='item_add'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='search'/><input type='hidden' name='sCategory' value='1'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='search'/><input type='hidden' name='sCategory' value='9'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='search'/><input type='hidden' name='sCategory' value='2'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='search'/><input type='hidden' name='sCategory' value='3'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='search'/><input type='hidden' name='sCategory' value='4'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='search'/><input type='hidden' name='sCategory' value='5'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='search'/><input type='hidden' name='sCategory' value='6'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='search'/><input type='hidden' name='sCategory' value='7'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='search'/><input type='hidden' name='sCategory' value='8'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='sShowAs' value='list'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='sShowAs' value='gallery'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='item'/><input type='hidden' name='id' value='1'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='item'/><input type='hidden' name='id' value='1'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='item'/><input type='hidden' name='id' value='2'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='item'/><input type='hidden' name='id' value='2'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='login'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='register'/><input type='hidden' name='action' value='register'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='item'/><input type='hidden' name='action' value='item_add'/></form>
+<form action='https://app7.com/index.php' method='get'> <input type='hidden' name='page' value='contact'/></form>

@@ -1,9 +1,645 @@
 [
     {
-        "url": "http://bm1.com/case1/bm.php", 
-        "action": "http://bm1.com/case1/bm.php", 
+        "url": "https://app7.com/index.php", 
+        "action": "https://app7.com/index.php", 
         "parameter": {
-            "q": "hidden_*_file"
+            "page": "hidden_*_search", 
+            "sCategory": "hidden_*_2"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/", 
+        "action": "https://app7.com/index.php", 
+        "parameter": {
+            "page": "hidden_*_login"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/", 
+        "action": "https://app7.com/index.php", 
+        "parameter": {
+            "page": "hidden_*_search", 
+            "sCategory": "hidden_*_9"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/index.php", 
+        "action": "https://app7.com/index.php", 
+        "parameter": {
+            "sShowAs": "hidden_*_gallery"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "page": "hidden_*_pages"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "page": "hidden_*_plugins"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_media", 
+            "page": "hidden_*_settings"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_ban", 
+            "page": "hidden_*_users"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "page": "hidden_*_users"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "page": "hidden_*_admins"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "page": "hidden_*_items", 
+            "catId": "hidden_*_1"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "page": "hidden_*_cfields"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_latestsearches", 
+            "page": "hidden_*_settings"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_import", 
+            "page": "hidden_*_tools"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_advanced", 
+            "page": "hidden_*_settings"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_runhook", 
+            "hook": "hidden_*_compactmode", 
+            "page": "hidden_*_ajax"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_items_reported", 
+            "page": "hidden_*_items"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_edit", 
+            "page": "hidden_*_admins"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/", 
+        "action": "https://app7.com/index.php", 
+        "parameter": {
+            "page": "hidden_*_contact"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/index.php", 
+        "action": "https://app7.com/index.php", 
+        "parameter": {
+            "page": "hidden_*_search", 
+            "sCategory": "hidden_*_8"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_logout"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "page": "hidden_*_items"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/index.php", 
+        "action": "https://app7.com/index.php", 
+        "parameter": {
+            "page": "hidden_*_search", 
+            "sCategory": "hidden_*_5"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/", 
+        "action": "https://www.paypal.com/in/cgi-bin/webscr", 
+        "parameter": {
+            "return": "hidden_*_https://app7.com/oc-admin/", 
+            "lc": "hidden_*_US", 
+            "business": "hidden_*_info@osclass.org", 
+            "item_name": "hidden_*_Osclass project", 
+            "cmd": "hidden_*__donations", 
+            "CSRFName": "hidden_*_CSRF552705128_50891869", 
+            "CSRFToken": "hidden_*_ee5bcb17e28e98288c24eb77dc5fee10b75391c1e9f6c0b1ba9131b9fa32a270cc6d76a05c228ca0d3f2592b729403ac8929021b3dba9e068d59fb6ad5eacaeb", 
+            "currency_code": "hidden_*_USD"
+        }, 
+        "method": "post"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/", 
+        "action": "http://osclass.org/", 
+        "parameter": {
+            "source": "hidden_*_osclass", 
+            "submit": "submit", 
+            "return_path": "hidden_*_https://app7.com/oc-admin/", 
+            "subscribe": "hidden_*_submit", 
+            "CSRFToken": "hidden_*_ee5bcb17e28e98288c24eb77dc5fee10b75391c1e9f6c0b1ba9131b9fa32a270cc6d76a05c228ca0d3f2592b729403ac8929021b3dba9e068d59fb6ad5eacaeb", 
+            "CSRFName": "hidden_*_CSRF552705128_50891869", 
+            "email": "text"
+        }, 
+        "method": "post"
+    }, 
+    {
+        "url": "https://app7.com/index.php", 
+        "action": "https://app7.com/index.php", 
+        "parameter": {
+            "page": "hidden_*_search", 
+            "sCategory": "hidden_*_3"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_settings", 
+            "page": "hidden_*_items"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_backup", 
+            "page": "hidden_*_tools"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "page": "hidden_*_market"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_locations", 
+            "page": "hidden_*_tools"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "page": "hidden_*_categories"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_plugins", 
+            "page": "hidden_*_market"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/index.php", 
+        "action": "https://app7.com/index.php", 
+        "parameter": {
+            "action": "hidden_*_item_add", 
+            "page": "hidden_*_item"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_comments", 
+            "page": "hidden_*_settings"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_comments", 
+            "page": "hidden_*_stats"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "page": "hidden_*_settings"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_alerts", 
+            "page": "hidden_*_users"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/index.php", 
+        "action": "https://app7.com/index.php", 
+        "parameter": {
+            "page": "hidden_*_item", 
+            "id": "hidden_*_1"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://www.paypal.com/in/cgi-bin/webscr", 
+        "parameter": {
+            "return": "hidden_*_http://osclass.org/paypal/", 
+            "lc": "hidden_*_US", 
+            "business": "hidden_*_info@osclass.org", 
+            "item_name": "hidden_*_Osclass project", 
+            "cmd": "hidden_*__donations", 
+            "submit": "submit", 
+            "CSRFName": "hidden_*_CSRF552705128_50891869", 
+            "CSRFToken": "hidden_*_ee5bcb17e28e98288c24eb77dc5fee10b75391c1e9f6c0b1ba9131b9fa32a270cc6d76a05c228ca0d3f2592b729403ac8929021b3dba9e068d59fb6ad5eacaeb", 
+            "rm": "hidden_*_2", 
+            "custom": "hidden_*_https://app7.com/oc-admin/?donation=successful&source=dashboard", 
+            "currency_code": "hidden_*_USD"
+        }, 
+        "method": "post"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "page": "hidden_*_media"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/", 
+        "action": "https://app7.com/index.php", 
+        "parameter": {
+            "action": "hidden_*_register", 
+            "page": "hidden_*_register"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_locations", 
+            "page": "hidden_*_settings"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_upgrade", 
+            "page": "hidden_*_tools"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_category", 
+            "page": "hidden_*_tools"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_spamNbots", 
+            "page": "hidden_*_settings"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/index.php", 
+        "action": "https://app7.com/index.php", 
+        "parameter": {
+            "page": "hidden_*_search", 
+            "sCategory": "hidden_*_1"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_currencies", 
+            "page": "hidden_*_settings"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_renderplugin", 
+            "route": "hidden_*_phpinfo", 
+            "page": "hidden_*_plugins"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_permalinks", 
+            "page": "hidden_*_settings"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/", 
+        "action": "https://app7.com/index.php", 
+        "parameter": {
+            "page": "hidden_*_search", 
+            "sCategory": "hidden_*_6"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_widgets", 
+            "page": "hidden_*_appearance"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_mailserver", 
+            "page": "hidden_*_settings"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "page": "hidden_*_appearance"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_render", 
+            "page": "hidden_*_appearance", 
+            "file": "hidden_*_oc-content/themes/bender/admin/settings.php"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/", 
+        "action": "https://app7.com/index.php", 
+        "parameter": {
+            "sShowAs": "hidden_*_list"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_users", 
+            "page": "hidden_*_stats"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/", 
+        "action": "https://app7.com/index.php", 
+        "parameter": {
+            "page": "hidden_*_search", 
+            "sCategory": "hidden_*_7"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "page": "hidden_*_emails"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_items", 
+            "page": "hidden_*_stats"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_settings", 
+            "page": "hidden_*_users"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/", 
+        "action": "https://app7.com/index.php", 
+        "parameter": {
+            "page": "hidden_*_search", 
+            "sCategory": "hidden_*_4"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "page": "hidden_*_items", 
+            "catId": "hidden_*_9"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/", 
+        "action": "https://app7.com/index.php", 
+        "parameter": {
+            "page": "hidden_*_search", 
+            "sPattern": "text"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/", 
+        "action": "https://app7.com/index.php", 
+        "parameter": {
+            "page": "hidden_*_item", 
+            "id": "hidden_*_2"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "page": "hidden_*_languages"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_reports", 
+            "page": "hidden_*_stats"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "page": "hidden_*_comments"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_render", 
+            "page": "hidden_*_appearance", 
+            "file": "hidden_*_oc-content/themes/bender/admin/header.php"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_maintenance", 
+            "page": "hidden_*_tools"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_languages", 
+            "page": "hidden_*_market"
+        }, 
+        "method": "get"
+    }, 
+    {
+        "url": "https://app7.com/oc-admin/index.php", 
+        "action": "https://app7.com/oc-admin/index.php", 
+        "parameter": {
+            "action": "hidden_*_themes", 
+            "page": "hidden_*_market"
         }, 
         "method": "get"
     }

@@ -1,6 +1,6 @@
-login_urls=['http://bm1.com/case1/bm.php']
-start_urls=['http://bm1.com/case1/bm.php']
-domain=['http://bm1.com']
+login_urls=['https://app7.com/oc-admin/index.php?page=login']
+start_urls=['https://app7.com/oc-admin/index.php']
+domain=['https://app7.com']
 username='admin'
 password='admin'
-login=False
+login=True
