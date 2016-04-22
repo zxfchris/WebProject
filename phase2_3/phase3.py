@@ -113,8 +113,8 @@ with open('../output/phase1_output.json') as data_file:
                                                         injectSuccess = True
                                             elif item == 'PHP5' or item == 'PHP6':
                                                 print 'PHP, injection command'
-                                                if "root:x:0:0:root:/root:/bin/bash" in r.content \
-                                                        or '/var/root:/bin/sh' in r.content:
+                                                if "root:/bin/bash" in r.content \
+                                                        or 'root:/bin/sh' in r.content:
                                                     print "injection success6!"
                                                     injectSuccess = True
                                             #formDetails["url"] = url
