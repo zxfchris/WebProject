@@ -74,8 +74,8 @@ with open('../output/phase1_output.json') as data_file:
                                             # print r.url
                                             injectSuccess = False
                                             if item == 'LFI1':
-                                                if "root:x:0:0:root:/root:/bin/bash" in r.content \
-                                                        or '/var/root:/bin/sh' in r.content:
+                                                if "root:/bin/bash" in r.content \
+                                                        or 'root:/bin/sh' in r.content:
                                                     print "injection success1!"
                                                     injectSuccess = True
                                             elif item == 'LFI2' or item == 'LFI3' or item == 'LFI4':
